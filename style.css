@@ -114,11 +114,8 @@ section.info .btn-cta {
   margin-top: 2rem;
 }
 
-#chartWrap{
-  display: flex;
-  height: 30%;
-  width: 45%;
-  margin: auto;
+section.chart{
+  padding: 10rem 0;
 }
 
 footer{
