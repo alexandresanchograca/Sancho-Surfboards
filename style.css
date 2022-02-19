@@ -1,0 +1,150 @@
+@import url(bootstrap-grid.css);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body{
+    font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: white;
+    overflow-x: hidden;
+}
+
+#menu{
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+#nav-list{
+    background: white;
+    margin: 0;
+    padding: lrem 0;
+    border-radius: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#logo{
+    height: 40px;
+}
+
+#nav-item{
+    list-style: none;
+    margin-right: 2rem;
+}
+
+#nav-item a{
+    text-decoration: none;
+    color: black;
+}
+
+#nav-item:first-child{
+    margin-right: auto;
+    margin-left: 0rem;
+}
+
+h1{
+  color: rgb(0, 0, 0);
+  font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 9vw;
+  text-align: center;
+}
+
+#video-background {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+  height: 200px;
+  width: 200px;
+  margin-top: 120px;
+  z-index: -1;
+}
+  
+#container {
+  height: 180vh;
+  overflow: hidden;
+  display: block;
+  z-index: -1;
+}
+
+.overlay-desc {
+  background: rgba(0,0,0,0);
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+}
+
+.heading {
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  margin-bottom: 2rem;
+  z-index: -1;
+}
+
+section.info {
+  padding: 10rem 0;
+  font-size: 1.2rem;
+}
+
+section.info img {
+  width: 100%;
+  min-width: 200px;
+}
+
+section.info .btn-cta {
+  max-width: 250px;
+  margin-top: 2rem;
+}
+
+#chartWrap{
+  display: flex;
+  height: 30%;
+  width: 45%;
+  margin: auto;
+}
+
+footer{
+  position: relative;
+  margin-top: 100px;
+  height: 80px;
+  width: 100%;
+  bottom: 0px;
+  color: white;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
+  text-align: center;
+  font-style: italic;
+  font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#maillink{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-style: italic;
+  margin: 5px;
+  text-decoration: none;
+}
+
+#mailimg{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  float: center;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <navbar id="menu">
+        <ul id="nav-list">
+            <li id="nav-item">
+                <a href="#section00"><img id="logo" src="img/logo5.png"></a>
+            </li>
+            <li id="nav-item">
+                <a href="#info0">About</a>
+            </li>
+            <li id="nav-item">
+                <a href="#info1">R&D</a>
+            </li>
+            <li id="nav-item">
+                <a href="#info2">P9</a>
+            </li>
+            <li id="nav-item">
+                <a href="#contacts">Contacts</a>
+            </li>
+        </ul>
+    </navbar>
+    <section id="section00">
+            <div id="container">
+                <video src="img/output_opt.mp4" playsinline="true" webkit-playsinline="true" preload="auto" muted="muted" id="video-background"></video>
+            </div>
+            <div class="overlay-desc">
+                <h1>Functional Surfcraft</h1>
+             </div>
+    </section>
+    <section class="info" id="info0">
+        <div class="container">
+            <h2 class="heading">About Sancho</h2>
+            <div class="row">
+                <div class="col-md-4"><img src="img/surf22bw.png" alt="About Sancho Img"></div>
+                <div class="col-md-8 d-flex flex-column">
+                    Sancho Surfboards is a non profit project. It's goal is to design and build better surfboards, and continue to do so with every iteration developed.
+                    The objective of this website is to portray the present development of design and construction of a purely functional Surfboard.
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="info" id="info1">
+        <div class="container">
+            <h2 class="heading">R&D</h2>
+            <div class="row">
+                <div class="col-md-4"><img src="img/brender.png" alt="About Sancho Img"></div>
+                <div class="col-md-8 d-flex flex-column">
+                    The research and development is a continuous process. Each iteration is aimed to be better than the previous one.
+                    Diferent Surfboard design theories were tested on every iteration made. Every iteration we make we are closer to a "perfect" surfboard.
+                    The objective is to make a simple and purely functional surfboard, that has all the features needed and nothing else is added.
+                    Right now is the 9th iteration of the surfboard, hence Prototype9.
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="info" id="info2">
+        <div class="container">
+            <h2 class="heading">Prototype9</h2>
+            <div class="row">
+                <div class="col-md-4"><img src="img/pic22.png" alt="About Sancho Img"></div>
+                <div class="col-md-8 d-flex flex-column">
+                    The surfboard that is currently being built is the Prototype 9 (P9), is the most refined iteration so far. It implements various design
+                    theories such as the planing hull and sidecut theory. Also some design elements that were uniquely developed for Sancho during the life of the project are implemented. 
+                    Construction is being made with EPS core, Basalt, innegra, glass fibers and epoxy resin. It aims to be flexible, strong (not stiff) and durable.
+                </div>
+            </div>
+        </div>
+    </section>
+        <section id="section3">
+            <div class="left">
+            </div>
+            <div id="chartWrap">
+                <canvas id="myChart" width="200" height="200"></canvas>
+            </div>
+        </section>
+        <footer id="contacts">
+            <p><a id="maillink" href="https://github.com/hatumgit"><img id="mailimg" src="img/mail.png" alt="mail">sanchosurfboards@gmail.com</a></p>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.js" integrity="sha512-3L1jVyEzdn9oEb/k5D8vColYIlkdZrLtHOWHrycZ2WfV+emgaWan/Y7qTxGsbb4V1rxiTBxgBMtqgZ8c5hVE/Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/js/bootstrap.min.js" integrity="sha512-UR25UO94eTnCVwjbXozyeVd6ZqpaAE9naiEUBK/A+QDbfSTQFhPGj5lOR6d8tsgbBk84Ggb5A3EkjsOgPRPcKA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
